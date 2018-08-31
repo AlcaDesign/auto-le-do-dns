@@ -1,0 +1,17 @@
+{
+  "name": "auto-le-do-dns",
+  "version": "1.0.0",
+  "description": "Node.js tool to add/update/delete DNS records on DigitalOcean for use with Let's Encrypt.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "dns", "digitalocean", "letsencrypt" ],
+  "author": "Jacob \"Alca\" Foster",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
