@@ -21,6 +21,13 @@ node cli.js <domain.name> <record 1> <record 2>
 
 ## Setup
 
+Clone and install with NPM:
+
+```bash
+git clone https://github.com/AlcaDesign/auto-le-do-dns.git
+npm install
+```
+
 Add "DO_PAT" to your environment or create a `.env` file in the root directory.
 The value should be an access token, or a personal access token, for the
 matching DigitalOcean account with the domains. This may be added as a cli
