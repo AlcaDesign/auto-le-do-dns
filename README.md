@@ -25,6 +25,7 @@ Clone and install with NPM:
 
 ```bash
 git clone https://github.com/AlcaDesign/auto-le-do-dns.git
+cd auto-le-do-dns
 npm install
 ```
 
